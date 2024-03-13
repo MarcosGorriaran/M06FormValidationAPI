@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <form id="mainForm">
+        <div>
+            <label>Nombre: </label>
+            <input type="text"  required=""/>
+            <p id="textError"></p>
+        </div>
+        <div>
+            <label>Correo electronico: </label>
+            <input type="email"/>
+            <p id="emailError"></p>
+        </div>
+        <div>
+            <label>Edad: </label>
+            <input type="number" min="18"/>
+            <p id="ageError"></p>
+        </div>
+        <div>
+            <label>Mensaje: </label>
+            <textarea></textarea>
+        </div>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
